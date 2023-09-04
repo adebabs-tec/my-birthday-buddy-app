@@ -5,22 +5,66 @@
 }
 
 body {
-    background-color: #f5d0fe;
+    background-color: #fae8ff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 700px;
+    background-color: white;
+    padding: 2rem 10px;
+    margin: 6rem auto;
 }
 
 li {
-    display: block;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    padding: 1rem 20px;
+}
+
+li h1 {
+    font-weight: 500;
+}
+
+li h3 {
+    font-size: 18px;
+    font-weight: 300;
 }
 
 img {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-details {
+    display: block;
+}
+
+ul .btn {
+    padding: 0.3rem 18rem;
+    margin: 20px 0 0 15px;
+    background-color: #d946ef;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+ul .btn:hover {
+    background-color: #a21caf;
+    transition: 0.5s ease-in;
+    font-weight: 500;
+}
+
+ul>h3 {
+    font-size: 40px;
+    font-weight: 400;
+    padding: 0 20px 10px 20px;
 }
